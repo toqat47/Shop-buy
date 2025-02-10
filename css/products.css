@@ -1,12 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color:  #0e1d44;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    scroll-padding: 0;
-  }
+
   
   .container {
     padding: 20px;

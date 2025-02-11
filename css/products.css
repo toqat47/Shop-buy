@@ -3,35 +3,13 @@
   .container {
     padding: 20px;
   }
-  .icon{
-    flex: 1;
-    text-align: right;
-   
-  }
-  .header {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .title{
-    background-color: transparent;
-    height: 90px;
-    border-radius: 10px;
-    cursor: pointer;
-    width: 100%;
-    background-color: #060e20;
-    border: 2px solid #142a3a;
-    box-shadow: 0 4px 8px rgba(44, 51, 185, 0.3);
-  }
-  .title h1 {
-    font-size: 40px;
-    font-weight: bold;
-    color: #c3c5d9;
-    padding: 10px 20px;
-  }
+
+
+
 .buttons {
     display: flex;
     gap: 10px;
+    padding: 20px;
   }
   .btn {
     display: flex;
@@ -69,13 +47,18 @@
   }
   .product{
     padding: 5px 10px;
-    font-size: 15px;
-    color:#c3c5d9;
+    display: flex;
+    font-size: 18px;
+    color:var(--color-semi-gray);
+    align-items: center;
+    
   }
-  .product span{
-    font-size: 20px;
-    font-weight: bold;
+  .product p{
+    margin: 0;
   }
+  /* .product span{
+
+  } */
   .all{
     color: #0984e3;
   }

@@ -64,9 +64,42 @@ a:hover::before{
    font-style: italic;
    color: var(--color-semi-gray);
 }
+.header {
+   display: flex;
+   gap: 20px;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.header-right-side{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+}
+.header-right-side i{
+   font-size: 16px;
+   width: 32px;
+   height: 32px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+
+}
+
+.header-profile{
+   background-color: var(--border-color);
+   border-radius: 50%;
+}
 
 
-
+.header-profile i{
+   color:var(--secondry-color);
+}
+.header-profile::before{
+   content: none;
+}
 
 .input-div{
    display: flex;
@@ -129,4 +162,52 @@ button[type="submit"]{
    color: var(--link-color);
    font-size: 16px;
 }
+.title{
+   height: 90px;
+   border-radius: 10px;
+   cursor: pointer;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   width: 100%;
+   background-color: #060e20;
+   border: 2px solid #142a3a;
+   box-shadow: 0 4px 8px rgba(44, 51, 185, 0.3);
+   padding: 20px;
+   margin-bottom: 20px;
+}
+.title h1 {
+   font-size: 40px;
+   font-weight: bold;
+   color: var(--color-semi-gray);
+}
+.taxonmies{
+   display: flex ;
+   gap: 5px;
+   padding: 0 10px;
+}
+.taxonmies-div-title{
+   font-size: 20px;
+   font-weight: 600;
+}
+.tax-sperator{
+   font-size: 20px;
+   font-weight: bold;
+   padding: 0 2px;
+}
+.single-tax{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+}
 /* ===================================== End  Global  ====================================== */
+
+
+/* ================================================ disable bootsrap ================================ */
+h3{
+   margin-bottom: 0;
+}
+/* ================================================ disable bootsrap ================================ */
+
+

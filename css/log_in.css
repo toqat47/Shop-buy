@@ -5,7 +5,7 @@
 	display: flex;
 	background-color:#121a2f;
 	height: 100vh;
-	
+	overflow: hidden;
 } 
 /* ===================================== Start Right Section ======================================== */
 .section_img{
@@ -17,6 +17,11 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center
+}
+@media screen and (max-width:800px) {
+	.section_img{
+		display: none;
+	}
 }
 
 .section_img img{
@@ -42,7 +47,12 @@
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
+}
 
+@media screen and (max-width:800px) {
+	.section_log_in{
+		width: 100%;
+	}
 }
 .section_log_in h2{
 	font-size: 38px;

@@ -131,9 +131,9 @@
   .clear-btn:hover{
     background-color: #0984e3;
   }
-  .table_box{
+  /* .table_box{
     margin: 50px 0;
-  }
+  } */
   /* .table_row{
     display: table;
     width: 100%;
@@ -150,7 +150,7 @@
     
   } */
 
-  main.table{
+  /* main.table{
     box-sizing: border-box;
     font-family: sans-serif;
     display: flex;
@@ -180,20 +180,56 @@
     padding: .1rem;
     background-color: #060e20;
     color: #c3c5d9;
-  }
-  .table_head{
-    box-sizing: border-box;
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    display: table;
-    width: 100%;
-    margin: 10px auto;
-    background: #060e20;
-    padding: 5px;
-    gap: 10px;
-  }
-  
-  
+  } */
+.product_name_design{
+  color: var(--font-product);
+  font-size: 18px;
+  font-weight: bold;
+  align-items: right;
+  padding: 20px;
+  justify-content: right;
+}
+.imge_product{
+  border-radius: 10px;
+  width: 50px;
+  height: 60%;
+}
+.SKU_font{
+  color: var(--color-semi-gray);
+
+}
+.in_Stock{
+  color: #00b894;
+  font-size: 15px;
+}
+.Low_Inventory{
+  color: #00b894;
+  font-size: 15px;
+}
+.out_of_Stock{
+  color:red;
+  font-size: 15px;
+}
+.On_Demand{
+  color: var(--color-semi-gray);
+  font-size: 15px;
+}
+.number_product{
+  color: var(--color-semi-gray);
+  font-size: 15px;
+}
+.Price{
+  color: var(--color-semi-gray);
+}
+.CATEGORY{
+  color: var( --link-color);
+}
+.Tags{
+  color: var( --link-color);
+}
+.Actions{
+  color: var( --link-color);
+  justify-content: center;
+  align-items: center;
+}
   

@@ -103,7 +103,32 @@ a:hover::before{
 .header-profile::before{
    content: none;
 }
-
+.sidebar{
+   width: 30%;
+   height: 100vh;
+   background:var(--bg-color);
+}
+.sidebar_titil{
+   font-size: 22px;
+   color: #b0b7d4;
+   text-align: start;
+   line-height: 70px;
+   user-select: none;
+}
+.sidebar ul a{
+   display: block;
+   height:100%;
+   width: 100%;
+   line-height: 65px;
+   font-size: 20px;
+   color: var(--color-semi-gray);
+   padding-left: 40px;
+   box-sizing: border-box;
+}
+ul li :hover {
+   border-radius: 5px;
+   border: 2px solid  var(--border-color);
+}
 .input-div{
    display: flex;
    flex-direction: column;

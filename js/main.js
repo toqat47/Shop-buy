@@ -19,20 +19,21 @@ $(document).ready(function(){ // Every Password input add icon to show password 
     });
 
 function search(){
-  let searchbar = document.querySelector('.search').value.toUpperCase();
-  let ProductName =document .querySelectorAll('.product_name_design');
-  let SKU =document .querySelectorAll('.SKU_font');
-  let Stock =document .querySelectorAll('.Price');
-  let CATEGORY =document .querySelectorAll('.CATEGORY');
-  let Tags =document .querySelectorAll('.Tags');
-  let Actions=document .querySelectorAll('.Actions');
-  let product =document .getElementsByTagName('th');
-for (let i=0; i<product.length;i++){
-  if (product[i].innerHTML.toUpperCase().indexOf(searchbar)>=0){
-    ProductName[i].style.display ="";
-  }else{
-    ProductName[i].style.display ="none";
+  let searchbar   =     document.querySelector('.search').value.toUpperCase();
+  let ProductName =     document.querySelectorAll('.product_name_design');
+  let SKU         =     document.querySelectorAll('.SKU_font');
+  let Stock       =     document.querySelectorAll('.Price');
+  let CATEGORY    =     document.querySelectorAll('.CATEGORY');
+  let Tags        =     document.querySelectorAll('.Tags');
+  let Actions     =     document.querySelectorAll('.Actions');
+  let product     =     document.getElementsByTagName('th');
+  
+for (let i=0; i<ProductName.length;i++){
+  let SearchResult = ProductName[i].textContent.toUpperCase().indexOf(searchbar);
+    if (SearchResult >=0){
+      ProductName[i].parentElement.style.display ="";
+    }else{
+      ProductName[i].parentElement.style.display ="none";
+    }
   }
-}
-
 }

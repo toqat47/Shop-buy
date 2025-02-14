@@ -59,6 +59,9 @@ a:hover::before{
 
 }
 
+.link::before{
+   content: unset;
+}
 
 
 .site-name{

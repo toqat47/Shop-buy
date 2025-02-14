@@ -13,6 +13,8 @@
    --dropdown-color:darkblue;
    --main-transation: 250ms;
    --dark-bg-blue: #031123;
+   --font-btn-white:#ffffff;
+   --font-btn-red:rgb(255, 51, 0);
 }
 
 *{

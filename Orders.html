@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/orders.css">
 </head>
   <body>
     <div class="container">
@@ -20,7 +21,7 @@
           </div>
         </header>
           <div class="title">
-        <h1>Products Management</h1>
+        <h1>Orders</h1>
           </div>
         <div class="buttons">
           <button class="btn add-product">
@@ -111,60 +112,40 @@
     <table class="table_header">
       <thead>
         <tr class="design_header">
-          <th> <i class="fa-regular fa-square" style="font-size: 15px; border: 1px;"></i></th>
-          <th ><i class="fa-regular fa-image"style="font-size: 27px;" ></i></th>
-          <th>Product Name</th>
-          <th>SKU</th>
-          <th>Stock</th> 
+          <th>#ORDERS</th>
+          <th>USER</th> 
           <th>Price</th>
-          <th>CATEGORY</th>
-          <th>Tags</th>
+          <th>ORDER STATUS</th>
           <th>Actions</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th> <i class="fa-regular fa-square" style="font-size: 15px; border: 1px; color: #4da6ff;"></i></th>
-          <td><img class="imge_product" src="imges/products/product_1.webp" alt=""></td>
-          <td class="product_name_design">xiaomi Wifi <br>Repeater Pro</td>
-          <td class="SKU_font">TR-001</td>
-          <td><span class="in_Stock">in stock</span><span class="number_product">(120)</span></td>
+          <th class="code">#123456</th>
+          <td class="user">Ahamed</td>
           <td><span class="Price">$254.00</span></td>
-          <td><span class="CATEGORY">Electronice</span></td>
-          <td><span class="Tags">Top Rated,<br>Best Selier,<br>Phone</span></td>
+          <td><span class="COMPLETED">COMPLETED</span></td>
           <td><span class="Actions"><a class="action_link" href="#" ><i class="fa-solid fa-file-pen" ></i></i></a> <a  class="action_link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></span></td>
         </tr>
         <tr>
-          <th> <i class="fa-regular fa-square" style="font-size: 15px; border: 1px; color: #4da6ff;"></i></th>
-          <td><img  class="imge_product" src="imges/products/product_2.webp" alt=""></td>
-          <td class="product_name_design">samsung note 10</td>
-          <td class="SKU_font">TR-001</td>
-          <td> <span class="Low_Inventory">Low Inventory</span><br><span class="number_product">(3)</span></td>
+          <th class="code">#123895</th>
+          <td class="user">Aya</td>
           <td><span class="Price">$254.00</span></td>
-          <td><span class="CATEGORY">Electronice</span></td>
-          <td><span class="Tags">-</span></td>
+          <td><span class="CONFIRMED">CONFIRMED</span></td>
           <td><span class="Actions"><a  class="action_link" href="#" ><i class="fa-solid fa-file-pen" ></i></i></a> <a  class="action_link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></span></td>
         </tr>
         <tr>
-          <th> <i class="fa-regular fa-square" style="font-size: 15px; border: 1px; color: #4da6ff;"></i></th>
-          <td><img  class="imge_product" src="imges/products/product_3.webp" alt=""></td>
-          <td  class="product_name_design">samsung note 20</td>
-          <td class="SKU_font">TR-001</td>
-          <td><span class="out_of_Stock">out of Stock</span><br><span class="number_product">(0)</span></td>
+          <th class="code">#678128</th>
+          <td  class="user">Ahamed</td>
           <td><span class="Price">$254.00</span></td>
-          <td><span class="CATEGORY">Electronice</span></td>
-          <td><span class="Tags">-</span></td>
+          <td><span class="CANCELLED">CANCELLED</span></td>
           <td><span class="Actions"><a  class="action_link" href="#" ><i class="fa-solid fa-file-pen" ></i></i></a> <a  class="action_link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></span></td>
         </tr>
         <tr>
-          <th> <i class="fa-regular fa-square" style="font-size: 15px; border: 1px; color: #4da6ff;"></i></th>
-          <td><img  class="imge_product" src="imges/products/product_4.webp" alt=""></td>
-          <td  class="product_name_design">iphone s6</td>
-          <td class="SKU_font">TR-001</td>
-          <td><span class="On_Demand">On Demand</span></td>
+          <th class="code">#678128</th>
+          <td  class="user">Ahamed</td>
           <td><span class="Price">$254.00</span></td>
-          <td><span class="CATEGORY">Electronice</span></td>
-          <td><span class="Tags">Top Rated,<br>Best Selier,<br>Phone</span></td>
+          <td><span class="CONFIRMED">CONFIRMED</span></td>
           <td><span class="Actions"><a  class="action_link" href="#" ><i class="fa-solid fa-file-pen" ></i></i></a> <a  class="action_link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></span></td>
         </tr>
       </tbody>

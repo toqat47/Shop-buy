@@ -18,6 +18,8 @@ $(document).ready(function(){ // Every Password input add icon to show password 
       } )
     });
 
+
+    //Search table
 function SearchTable(ele){
   SearchValue       = ele.value.toUpperCase()
   let TableRows     = document.querySelectorAll('tbody tr');
@@ -40,4 +42,16 @@ function SearchTable(ele){
     }
     
   }
-} لd
+} 
+
+
+//toggle submenu
+
+$(document).ready(function(){
+  let DropDowns = $('.Aside .DropDown');
+  DropDowns.each(function(i,ele){
+    $(ele).on('click', function(){
+      $(ele).toggleClass('Active')
+    })
+  })
+});

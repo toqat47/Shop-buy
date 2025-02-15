@@ -59,6 +59,16 @@ main.Editor{
   padding: 10px 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  flex-direction: column;
+}
+.Dropdown_div{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .Attributes{
   color: var(--color-semi-gray);
@@ -66,12 +76,17 @@ main.Editor{
   position: absolute;
   margin-top: 10px;
   bottom: 13%;
-  
+  flex-direction: column;
+}
+.Description_div{
+  display: flex;
+  flex-direction: column;
 }
 .dropdown_Attributes{
   border: none;
   border-radius: 10px;
   border: 2px solid var(--dropdown-color);
+  flex-direction: column;
 }
 .dropdown_Attributes:hover{
   border: 2px solid  var(--link-color) ; 
@@ -110,28 +125,24 @@ main.Editor{
 .weight_btn:hover{
   border: 2px solid var(--link-color);
 }
-.Description_p{
-  font-size: 13px;
+.Description{
+  font-size: 18px;
   color: var(--color-semi-gray);
-}
-.Description_div{
-  height: 100%;
+  height: 160px !important;
   border-radius: 10px;
   cursor: pointer;
   display: flex;
   justify-content: start;
-  align-items: center;
   width: 70%;
+  white-space: unset !important;
   background-color: var(--font_table);
   border: 2px solid var(--dropdown-color);
   box-shadow: 0 4px 8px var(--bg-color);
-  padding: 10px 20px;
+  padding: 0 20px;
+  padding-top: 20px !important;
+  overflow: hidden;
+  resize: none;
 }
-.Description_div:hover{
+.Description:hover{
   border: 2px solid var(--link-color);
-}
-.Description{
-  font-size: 18px;
-  color: var(--color-semi-gray);
-  padding: 10px;
 }

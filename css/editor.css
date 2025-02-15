@@ -23,7 +23,7 @@ main.Editor{
   cursor: pointer;
   padding: 10px 20px;
   border: 2px dotted var(--link-color);
-  width: 50%;
+  width: 300px;
   margin: 10px;
   background-color: var(--font_table);
   position: relative;
@@ -70,14 +70,6 @@ main.Editor{
   border-radius: 10px;
   cursor: pointer;
 }
-.Attributes{
-  color: var(--color-semi-gray);
-  padding: 10px 20px;
-  position: absolute;
-  margin-top: 10px;
-  bottom: 13%;
-  flex-direction: column;
-}
 .Description_div{
   display: flex;
   flex-direction: column;
@@ -91,40 +83,7 @@ main.Editor{
 .dropdown_Attributes:hover{
   border: 2px solid  var(--link-color) ; 
 }
-.inches{
-  font-size: 15px;
-  color: var(--color-semi-gray);
-}
-.inches_btn{
-  background-color: transparent;
-  color:var(--color-semi-gray);
-  border: none;
-  border-radius: 10px;
-  border: 2px solid var(--dropdown-color);
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-}
-.inches_btn:hover{
-  border: 2px solid var(--link-color);
-}
-.weight{
-  font-size: 15px;
-  color: var(--color-semi-gray);
-}
-.weight_btn{
-  background-color: transparent;
-  color:var(--color-semi-gray);
-  border: none;
-  border-radius: 10px;
-  border: 2px solid var(--dropdown-color);
-  align-items: center;
-  padding: 10px 20px;
-  display:flex;
-}
-.weight_btn:hover{
-  border: 2px solid var(--link-color);
-}
+
 .Description{
   font-size: 18px;
   color: var(--color-semi-gray);
@@ -145,4 +104,8 @@ main.Editor{
 }
 .Description:hover{
   border: 2px solid var(--link-color);
+}
+.Description_p{
+  margin-top: 10px;
+  color: var(--color-semi-gray);
 }

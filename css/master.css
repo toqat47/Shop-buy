@@ -2,6 +2,7 @@
 :root{
    --primary-color:#edf2fc;
    --secondry-color:#182a4e;
+   --dropdown-color-border:#1e335c;
    --border-color:#0984e3;
    --bg-color:#101e42;
    --color-semi-gray:#b0b7d4;
@@ -281,10 +282,24 @@ h3{
    border-radius: 10px;
    cursor: pointer;
    border: 2px solid var(--dropdown-color);
+   color: var(--color-semi-gray);
 }
 .dropdown:hover{
    border: 2px solid  var(--link-color) ; 
 }
+.dropdown-menu {
+   background: var(--bg-color);
+   color:var(--color-semi-gray);
+   padding: 10px;
+}
+.dropdown-menu li {
+   padding: 10px;
+   border-bottom: 1px solid var(--dropdown-color-border); 
+}
+.dropdown-item {
+   color: var(--color-semi-gray);
+}
+
 
 /*================================================ titel =============================================*/
 .table_titil{
@@ -508,5 +523,17 @@ table,th,td{
    background: var(--color-semi-gray);
    border-radius: 50%;
 }
-
+/*=================================input_text========================================*/
+.input_text{
+   width: 30%;
+   height: 40px;
+   border-radius: 8px;
+	border: 1px solid var(--border-color);
+	background: #182a4e;
+	color: var(--color-semi-gray);
+	font-size: 15px;
+	text-align: left;
+	text-overflow: ellipsis;
+   padding: 10px 20px;
+}
 /* ===================================== End Aside ======================================= */

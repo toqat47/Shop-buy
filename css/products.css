@@ -53,6 +53,10 @@
     align-items: center;
     
   }
+  .design_header i{
+    font-size: 18px;
+    border: 1px
+  }
   .product p{
     margin: 0;
   }

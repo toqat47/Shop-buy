@@ -294,6 +294,9 @@ h3{
 }
 .dropdown-menu li {
    padding: 10px;
+
+}
+.dropdown-menu li:not(:last-child){
    border-bottom: 1px solid var(--dropdown-color-border); 
 }
 .dropdown-item {

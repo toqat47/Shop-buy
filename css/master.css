@@ -241,6 +241,9 @@ button[type="submit"]{
    align-items: center;
    gap: 5px;
 }
+#Trash{
+   color: var(--font-btn-red);
+}
 /* ===================================== End  Global  ====================================== */
 
 

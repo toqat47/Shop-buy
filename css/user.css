@@ -19,9 +19,7 @@
   justify-content: space-between;
   padding: 20px 0;
 }
-.input_user :nth-child(2n){
-  justify-content: end;
-}
+
 .input_user{
   display: flex;
   flex-wrap: wrap;
@@ -57,4 +55,8 @@
 .password-with-icon input{
   height: 40px;
   width: 95%;
+}
+.password-with-icon .eye{
+  top: 50%;
+  width: calc(5% + 10px)
 }

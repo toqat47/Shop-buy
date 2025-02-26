@@ -198,7 +198,7 @@ button[type="submit"]{
 .password-with-icon .eye{
    position: absolute;
    top: 50%;
-   right: 24px;
+   right: calc(5% + 5px);
    transform: translate(-50%, -50%);
    color: var(--link-color);
    font-size: 16px;

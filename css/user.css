@@ -1,0 +1,60 @@
+.titel_form{
+  color: var(--color-semi-gray);
+  justify-items: center;
+}
+.form_user{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px ;
+  width: 80%;
+  margin: 10px auto;
+  background-color:var(--font_table);
+  box-shadow: 0 1px 4px 0 var(--link-color);
+}
+.add_user{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.input_user :nth-child(2n){
+  justify-content: end;
+}
+.input_user{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 15px;
+}
+.input_user label{
+  width: 95%;
+  color: var(--color-semi-gray);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.input_user input{
+  height: 40px;
+  width: 95%;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: #182a4e;
+  color: var(--color-semi-gray);
+  font-size: 18px;
+  text-align: left;
+  text-overflow: ellipsis;
+  padding: 10px;
+}
+.input_user input:hover,
+.input_user input:focus,
+.input_user input:focus-visible{
+   border: 2px solid rgba(21, 18, 190, 0.701);
+   outline: none;
+}
+
+.password-with-icon input{
+  height: 40px;
+  width: 95%;
+}

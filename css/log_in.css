@@ -77,24 +77,6 @@
 	justify-content: center;
 	width: 80%;
 	}
-	
-
-/* .log_in input{
-	width: 75%;
-	height: 50px;
-	padding: 0 20px ;
-	margin-bottom: 5px;
-	border-radius: 8px;
-	border: 1px solid #3a4b78;
-	background: #182a4e;
-	color: #b0b7d4;
-	font-size: 18px;
-	text-align: left;
-	text-overflow: ellipsis;
-}
-.log_in input:hover{
-	border: 2px solid rgba(21, 18, 190, 0.701);
-} */
 .forget-password-div{
 	display: flex;
 	justify-content: center;

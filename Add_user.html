@@ -25,40 +25,53 @@
           <h1>Add New User</h1>
           <p>Create a brand new user and add them to this site</p>
         </div>
-    <div class="form_user">
-      <div class="section_user">
+    <div class="only-form">
         <form  action="GET" class="add_user">
-          <div class="input_user">
-            <label for="Username">Username (required)</label>
-            <input type="text" id="Username" name="Username" placeholder="Username">
-          </div>
-          <div class="input_user">
-            <label for="E-mail">E-mail</label>
-            <input type="text" id="E-mail" name="E-mail" placeholder="Your E-mail address">
-          </div>
-          <div class="input_user">
-            <label for="First_Name">First Name</label>
-            <input type="text" id="First_Name" name="First_Name" placeholder="First Name">
-          </div>
-          <div class="input_user">
-            <label for="Last_name">Last Name</label>
-            <input type="text" id="Last_name" name="Last_name" placeholder="Last Name">
-          </div>
-          <div class="input_user">
-            <label for="Password">Password</label>
-            <div class="password-with-icon">
-              <input type="password" id="Password" class="password" name="Password" placeholder="Your Password">
+          <div class="two-input">
+            <div class="input-div w-half">
+              <label for="Username" class="riq">Username</label>
+              <input type="text" id="Username" name="Username" placeholder="Username">
+            </div>
+            <div class="input-div w-half">
+              <label for="E-mail" class="riq">E-mail</label>
+              <input type="text" id="E-mail" name="E-mail" placeholder="Your E-mail address">
             </div>
           </div>
-          <div class="input_user">
-            <label for="Password">Confirm Password</label>
-            <div class="password-with-icon">
-              <input type="password" id="Password" class="password" name="Password" placeholder=" Confirm Your Password">
+          <div class="two-input">
+            <div class="input-div">
+              <label for="First_Name" class="riq">First Name</label>
+              <input type="text" id="First_Name" name="First_Name" placeholder="First Name">
+            </div>
+            <div class="input-div">
+              <label for="Last_name" class="riq">Last Name</label>
+              <input type="text" id="Last_name" name="Last_name" placeholder="Last Name">
             </div>
           </div>
-          <button type="submit" class="login-button">Log In</button>
+          <div class="two-input">
+            <div class="input-div">
+              <label for="Password" class="riq">Password</label>
+              <div class="password-with-icon">
+                <input type="password" id="Password" class="password" name="Password" placeholder="Your Password">
+              </div>
+            </div>
+            <div class="input-div">
+              <label for="Password" class="riq">Confirm Password</label>
+              <div class="password-with-icon">
+                <input type="password" id="Password" class="password" name="Password" placeholder=" Confirm Your Password">
+              </div>
+            </div>
+          </div>
+          <div class="input-div">
+            <label for="role" class="riq">Role</label>
+            <select name="role" >
+              <option value="customer">Customer</option>
+              <option value="editor">Editor</option>
+              <option value="admin">Admin</option>
+            </select>
+          </div>
+          <button type="submit" >Add</button>
         </form>
-      </div>
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

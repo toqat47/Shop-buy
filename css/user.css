@@ -2,25 +2,16 @@
   color: var(--color-semi-gray);
   justify-items: center;
 }
-.form_user{
-  box-sizing: border-box;
-  font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  padding: 20px ;
-  width: 80%;
-  margin: 10px auto;
-  background-color:var(--font_table);
-  box-shadow: 0 1px 4px 0 var(--link-color);
-}
+
 .add_user{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   padding: 20px 0;
 }
 
-.input_user{
+.section_user{
+  width: 100%;
+}
+
+/* .input_user{
   display: flex;
   flex-wrap: wrap;
   width: 50%;
@@ -59,4 +50,4 @@
 .password-with-icon .eye{
   top: 50%;
   width: calc(5% + 10px)
-}
+} */

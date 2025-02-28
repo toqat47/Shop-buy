@@ -91,8 +91,8 @@
 	text-align: center;
 	margin-top: 15px;
 }
-.eye{
-	/* position: absolute; */
+/* .eye{
+	position: absolute;
 	height: 1px;
 	right: 5px;
 	bottom: -90px;
@@ -101,7 +101,7 @@
 	background-color: #0d333a;
 	cursor: pointer;
 
-}
+} */
 .forgot-password a{
 	position: relative;
 	text-transform: capitalize;
